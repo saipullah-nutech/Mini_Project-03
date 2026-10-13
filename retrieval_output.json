@@ -1,0 +1,37 @@
+{
+  "question": "Ada berapa jumlah ekor sapi pada data?",
+  "retrieval_method": "semantic_cosine",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "b8ef00830037f9868450f778081ea683e900fe39",
+  "missing_customer_ids": [],
+  "retrieved_chunks": [
+    {
+      "chunk_id": "telco_2436-QBZFP",
+      "source": "Datasheet-Customer-Churn.csv",
+      "customer_id": "2436-QBZFP",
+      "record_number": 4916,
+      "csv_line_end": 4917,
+      "text": "Telco customer record / Catatan pelanggan telekomunikasi\nSource / Sumber: Datasheet-Customer-Churn.csv\nCustomer ID / ID pelanggan: 2436-QBZFP\nGender / Jenis kelamin: Female\nSenior citizen indicator / Indikator lansia: 0\nPartner / Pasangan: Yes\nDependents / Tanggungan: Yes\nTenure / Lama berlangganan (bulan): 22\nPhone service / Layanan telepon: No\nMultiple lines / Beberapa saluran telepon: No phone service\nInternet service / Layanan internet: DSL\nOnline security / Keamanan online: No\nOnline backup / Pencadangan online: Yes\nDevice protection / Perlindungan perangkat: No\nTechnical support / Dukungan teknis: No\nStreaming TV: Yes\nStreaming movies / Streaming film: No\nContract / Jenis kontrak: Month-to-month\nPaperless billing / Tagihan tanpa kertas: No\nPayment method / Metode pembayaran: Electronic check\nMonthly charges / Biaya bulanan: 39.2\nTotal charges / Total biaya: 849.9\nRecorded churn label / Label churn tercatat: No",
+      "similarity": 0.4416860044002533
+    },
+    {
+      "chunk_id": "telco_5753-QQWPW",
+      "source": "Datasheet-Customer-Churn.csv",
+      "customer_id": "5753-QQWPW",
+      "record_number": 5508,
+      "csv_line_end": 5509,
+      "text": "Telco customer record / Catatan pelanggan telekomunikasi\nSource / Sumber: Datasheet-Customer-Churn.csv\nCustomer ID / ID pelanggan: 5753-QQWPW\nGender / Jenis kelamin: Female\nSenior citizen indicator / Indikator lansia: 0\nPartner / Pasangan: No\nDependents / Tanggungan: No\nTenure / Lama berlangganan (bulan): 28\nPhone service / Layanan telepon: Yes\nMultiple lines / Beberapa saluran telepon: No\nInternet service / Layanan internet: DSL\nOnline security / Keamanan online: Yes\nOnline backup / Pencadangan online: Yes\nDevice protection / Perlindungan perangkat: No\nTechnical support / Dukungan teknis: Yes\nStreaming TV: No\nStreaming movies / Streaming film: No\nContract / Jenis kontrak: One year\nPaperless billing / Tagihan tanpa kertas: Yes\nPayment method / Metode pembayaran: Electronic check\nMonthly charges / Biaya bulanan: 59.9\nTotal charges / Total biaya: 1654.7\nRecorded churn label / Label churn tercatat: No",
+      "similarity": 0.43870723247528076
+    },
+    {
+      "chunk_id": "telco_8883-GRDWQ",
+      "source": "Datasheet-Customer-Churn.csv",
+      "customer_id": "8883-GRDWQ",
+      "record_number": 1070,
+      "csv_line_end": 1071,
+      "text": "Telco customer record / Catatan pelanggan telekomunikasi\nSource / Sumber: Datasheet-Customer-Churn.csv\nCustomer ID / ID pelanggan: 8883-GRDWQ\nGender / Jenis kelamin: Male\nSenior citizen indicator / Indikator lansia: 1\nPartner / Pasangan: No\nDependents / Tanggungan: No\nTenure / Lama berlangganan (bulan): 20\nPhone service / Layanan telepon: Yes\nMultiple lines / Beberapa saluran telepon: No\nInternet service / Layanan internet: DSL\nOnline security / Keamanan online: Yes\nOnline backup / Pencadangan online: No\nDevice protection / Perlindungan perangkat: No\nTechnical support / Dukungan teknis: Yes\nStreaming TV: No\nStreaming movies / Streaming film: No\nContract / Jenis kontrak: One year\nPaperless billing / Tagihan tanpa kertas: No\nPayment method / Metode pembayaran: Mailed check\nMonthly charges / Biaya bulanan: 54\nTotal charges / Total biaya: 1055.9\nRecorded churn label / Label churn tercatat: No",
+      "similarity": 0.436978280544281
+    }
+  ],
+  "note": "Similarity is not answer confidence. Inspect evidence; this step does not generate an LLM answer."
+}
